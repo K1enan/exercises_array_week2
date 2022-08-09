@@ -177,12 +177,12 @@ public class ArrayDemo {
         int count, num;
 
         // Taking the first number
-        System.out.println("Please enter your numbers: ");
+        System.out.println("Please enter an integer number: ");
         array[0] = input.nextInt();
 
         // taking other inputs
         for (count = 1; count < array.length; count++) {
-            System.out.println("Please enter your numbers: ");
+            System.out.println("Please enter an integer number: ");
             num = input.nextInt();
 
             // Scanning the array for the number
